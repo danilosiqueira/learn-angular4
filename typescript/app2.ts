@@ -1,40 +1,16 @@
-class Spacecraft {
-    //Definir propriedade e receber valor de forma reduzida com modificador public
-    constructor(public propulsor: string){}
+import {Spacecraft, Containership} from './base-ships'
+import {MilleniumFalcon} from './starfighters'
 
-    jumpIntoHyperspace() {
-        console.log(`Entering hyperspace with ${this.propulsor}`);
-    }
-}
+//Importar de forma namespace import (importar tudo do lodash)
+import * as _ from 'lodash'
+
+console.log(_.pad("TypeScript Examples", 40, "="))
 
 let ship = new Spacecraft('Hyperdrive');
 ship.jumpIntoHyperspace();
 
-class MilleniumFalcon extends Spacecraft implements Containership {
-
-    cargoContainers: number;
-
-    constructor() {
-        super('Hyperdirve');
-        this.cargoContainers = 4;
-    }
-
-    jumpIntoHyperspace() {
-        if(Math.random() >= 0.5) {
-            super.jumpIntoHyperspace()
-        } else {
-            console.log('Failed to jump into hyperspace');
-        }
-    }
-}
-
 let falcon = new MilleniumFalcon();
 falcon.jumpIntoHyperspace();
-
-interface Containership {
-
-    cargoContainers: number;
-}
 
 let goodForTheJob = (ship: Containership) => ship.cargoContainers > 2;
 console.log(`Is falcon good for the job? ${goodForTheJob(falcon) ? 'YES' : 'NO'}`)

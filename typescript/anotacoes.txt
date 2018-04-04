@@ -16,3 +16,12 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/danilosiqueira/learn-angular4.git
 git push -u origin master
+
+//Inicialiar gerenciador de pacotes de dependências do node (npm). Utilizar parâmetro -f para forçar as opções padrões.
+npm init -f
+
+//Importar um pacote pelo node informando que será utilizado em runtime e execução com o parâmetro --save e forçando uma versão após o @
+npm install --save loadesh@4.14
+
+//Instalar via npm definições de tipos para ser utilizado em desenvolvimento com o parâmetro --save-dev
+npm install --save-dev @types/lodash@4.14
