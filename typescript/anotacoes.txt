@@ -1,0 +1,11 @@
+//Para compilar arquivo .ts
+tsc app.ts
+
+//Para monitorar mudanças em arquivos .ts e compilar automaticamente
+tsc -w
+
+//Para executar arquivo .js com o node
+node dist/app
+
+//Para receber qualquer valor em uma variável como no javascript pode utilizar o tipo any na declaração ou não definindo o tipo
+let variavel: any;

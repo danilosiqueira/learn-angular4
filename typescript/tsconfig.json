@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", //Definir diretóeio de saída para os arquivos transpilados
+        "noEmitOnError": false //Não permitir transpilar arquivo com mensagens de erros
+    }
+}
