@@ -9,3 +9,10 @@ node dist/app
 
 //Para receber qualquer valor em uma variável como no javascript pode utilizar o tipo any na declaração ou não definindo o tipo
 let variavel: any;
+
+echo "# learn-angular4" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/danilosiqueira/learn-angular4.git
+git push -u origin master
