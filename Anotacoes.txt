@@ -1,0 +1,5 @@
+//Criar novo projeto angular com CLI e definindo um prefixo para os nomes dos componentes
+ng new jedi-academy --prefix=jad
+
+//Iniciar servidor da aplicação e abrir no browser
+ng serve --open
