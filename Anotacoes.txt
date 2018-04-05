@@ -3,3 +3,8 @@ ng new jedi-academy --prefix=jad
 
 //Iniciar servidor da aplicação e abrir no browser
 ng serve --open
+
+//Criar novo componente sem criar arquivo para testes
+ng g c header --spec=false
+
+//Quando for passar o valor que não for string para uma propriedade deve usar a sintaze de property binding [isJedi]="true"
