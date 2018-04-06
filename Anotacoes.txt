@@ -10,3 +10,8 @@ ng g c header --spec=false
 //Quando for passar o valor que não for string para uma propriedade deve usar a sintaze de property binding [isJedi]="true"
 
 //Diretivas no angular podem ser de três tipos: Componentes, Estruturais e Atributos.
+
+//Quando baixar projeto que tem dependências do node utilizar o comando npm install para baixar as dependências.
+npm install
+
+//Router Outlet é equivalente ao ng-view do Angular JS
