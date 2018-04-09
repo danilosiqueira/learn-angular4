@@ -15,3 +15,9 @@ ng g c header --spec=false
 npm install
 
 //Router Outlet é equivalente ao ng-view do Angular JS
+
+//Serviço deve ser declarado em providers para ser utilizado com injeção de dependência
+
+//Decorator @Injectable() é utilizado para receber injeções de serviços e não para dizer que o serviço pode ser injetado
+
+//Criar componente de serviço
