@@ -21,3 +21,9 @@ npm install
 //Decorator @Injectable() é utilizado para receber injeções de serviços e não para dizer que o serviço pode ser injetado
 
 //Criar componente de serviço
+
+//Instalação da biblioteca json server para criar dados mocados e responder via http
+npm install -g json-server
+
+//Iniciar json-server apontando para um arquivo com dados
+json-server db.json
