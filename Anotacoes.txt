@@ -27,3 +27,5 @@ npm install -g json-server
 
 //Iniciar json-server apontando para um arquivo com dados
 json-server db.json
+
+//Pipes são os filtros do Angular JS
