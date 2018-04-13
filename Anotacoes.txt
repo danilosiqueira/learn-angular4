@@ -29,3 +29,5 @@ npm install -g json-server
 json-server db.json
 
 //Pipes são os filtros do Angular JS
+
+//Usar "novalidate" para informar ao browser para não realizar validações e deixar isso com o Angular para evitar expiriências diferentes conforme o browser.
